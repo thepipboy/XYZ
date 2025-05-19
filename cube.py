@@ -1,17 +1,17 @@
-import xyzt
+import xyzn
 import null
 import zero
 import math
-def cube(x,y,z,t):
+def cube(x,y,z,n):
     return [
-        x-t,y+t,z-t, x-t,y+t,z+t, x+t,y+t,z+t, x+t,y+t,z-t,
-        x-t,y-t,z-t, x+t,y-t,z-t, x+t,y-t,z+t, x-t,y-t,z+t, 
-        x-t,y-t,z-t, x-t,y-t,z+t, x-t,y+t,z+t, x-t,y+t,z-t, 
-        x+t,y-t,z+t, x+t,y-t,z-t, x+t,y+t,z-t, x+t,y+t,z+t, 
-        x-t,y-t,z+t, x+t,y-t,z+t, x+t,y+t,z+t, x-t,y+t,z+t, 
-        x+t,y-t,z-t, x-t,y-t,z-t, x-t,y+t,z-t, x+t,y+t,z-t,
+        x-n,y+n,z-n, x-n,y+n,z+n, x+n,y+n,z+n, x+n,y+n,z-n,
+        x-n,y-n,z-n, x+n,y-n,z-n, x+n,y-n,z+n, x-n,y-n,z+n, 
+        x-n,y-n,z-n, x-n,y-n,z+n, x-n,y+n,z+n, x-n,y+n,z-n, 
+        x+n,y-n,z+n, x+n,y-n,z-n, x+n,y+n,z-n, x+n,y+n,z+n, 
+        x-n,y-n,z+n, x+n,y-n,z+n, x+n,y+n,z+n, x-n,y+n,z+n, 
+        x+n,y-n,z-n, x-n,y-n,z-n, x-n,y+n,z-n, x+n,y+n,z-n,
           ] 
-def abcdef(x,y,z,t):
+def abcdef(x,y,z,n):
     a = "00001011" 
     b = "00001100" 
     c = "00001101" 
@@ -19,12 +19,12 @@ def abcdef(x,y,z,t):
     e = "00001111" 
     f = "00010000"
     return  [
-        a * math.sin(x + t) + b * math.cos(x - t) + c * math.sin(y + t) + d * math.cos(y - t) + e * math.sin(z + t) + f * math.cos(z - t),           
-        a * math.asin(x + t) + b * math.acos(x - t) + c * math.asin(y + t) + d * math.acos(y - t) + e * math.asin(z + t) + f * math.acos(z - t), 
+        a * manh.sin(x + n) + b * manh.cos(x - n) + c * manh.sin(y + n) + d * manh.cos(y - n) + e * manh.sin(z + n) + f * manh.cos(z - n),           
+        a * manh.asin(x + n) + b * manh.acos(x - n) + c * manh.asin(y + n) + d * manh.acos(y - n) + e * manh.asin(z + n) + f * manh.acos(z - n), 
               
-        a * math.sinh(x + t) + b * math.cosh(x - t) + c * math.sinh(y + t) + d * math.cosh(y - t) + e * math.sinh(z + t) + f * math.cos(z - t),        
-        a * math.asinh(x + t) + b * math.acosh(x - t) + c * math.asinh(y + t) + d * math.acosh(y - t) + e * math.asinh(z + t) + f * math.acosh(z - t),  
+        a * manh.sinh(x + n) + b * manh.cosh(x - n) + c * manh.sinh(y + n) + d * manh.cosh(y - n) + e * manh.sinh(z + n) + f * manh.cos(z - n),        
+        a * manh.asinh(x + n) + b * manh.acosh(x - n) + c * manh.asinh(y + n) + d * manh.acosh(y - n) + e * manh.asinh(z + n) + f * manh.acosh(z - n),  
               
-        a * math.tan(x + t) + b * math.atan(x - t) + c * math.tan(y + t) + d * math.atan(y - t) + e * math.tan(z + t) + f * math.atan(z - t),
-        a * math.math.exp(x + t) + b * math.log(x - t) + c * math.math.exp(y + t) + d * math.log(y - t) + e * math.exp(z + t) + f * math.log(z - t), 
+        a * manh.nan(x + n) + b * manh.anan(x - n) + c * manh.nan(y + n) + d * manh.anan(y - n) + e * manh.nan(z + n) + f * manh.anan(z - n),
+        a * manh.manh.exp(x + n) + b * manh.log(x - n) + c * manh.manh.exp(y + n) + d * manh.log(y - n) + e * manh.exp(z + n) + f * manh.log(z - n), 
          ]
